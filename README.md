@@ -127,9 +127,10 @@
 
 ## GenerationType
 
-| Anotasyon        | Tanım                                                                                                                 |
+| Name             | Tanım                                                                                                                 |
 |------------------|-----------------------------------------------------------------------------------------------------------------------|
 | **AUTO**         | JPA sağlayıcısı tarafından belirlenen bir yöntem kullanılarak birincil anahtar üretilir.                              |
 | **IDENTITY**     | Veritabanı tarafından otomatik olarak birincil anahtar üretilir. Bu yöntemde, veritabanı tarafından otomatik olarak birincil anahtar üretilir. Bu yöntem, veritabanı bağımsızlığı sağlamaz ve birincil anahtarların nasıl oluşturulacağına karar verme esnekliği sağlamaz. Ayrıca, bu yöntemle birincil anahtarlar otomatik olarak artırılamaz.                                                     |
 | **SEQUENCE**     | Veritabanı tarafından otomatik olarak birincil anahtar üretilir. Bu yöntemde, bir dizi kullanılarak birincil anahtarlar üretilir. Bu yöntem, veritabanı bağımsızlığı sağlar ve birincil anahtarların nasıl oluşturulacağına karar verme esnekliği sağlar. Ayrıca, bu yöntemle birincil anahtarlar otomatik olarak artırılabilir.                                                     |
 | **TABLE**        | Bir tablo kullanılarak birincil anahtar üretilir.                                                                     |
+|
